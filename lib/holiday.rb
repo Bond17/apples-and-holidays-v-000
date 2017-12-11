@@ -70,6 +70,7 @@ def all_supplies_in_holidays(holiday_hash)
         if i<supply.length
         array<<", "
       end
+      end
       array.
       puts array
     end
