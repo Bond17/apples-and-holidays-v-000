@@ -93,6 +93,7 @@ def all_holidays_with_bbq(holiday_hash)
         if data.key?("BBQ")
           data
         end
+      end
   end
   bbq
 end
