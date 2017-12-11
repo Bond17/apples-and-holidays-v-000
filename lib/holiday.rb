@@ -91,7 +91,7 @@ def all_holidays_with_bbq(holiday_hash)
   bbq= holiday_hash.collect do |season, data|
 
         if data.key?("BBQ")
-          day
+          data
         end
 
   end
