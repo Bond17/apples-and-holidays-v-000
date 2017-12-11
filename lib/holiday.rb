@@ -64,7 +64,8 @@ def all_supplies_in_holidays(holiday_hash)
     data.each do |holiday, supply|
       title = "#{holiday}"
       title = title.split("_")
-      title= title.capitalize
+      title = title.collect do |word|
+        word.capitalize
       array=title.join(" ")
       i=0
       while i<supply.length
