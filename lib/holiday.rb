@@ -65,7 +65,7 @@ def all_supplies_in_holidays(holiday_hash)
       array=" #{holiday.capitalize}: "
       i=0
       while i<supply.length
-        array<<supply[i]
+        array<<supply[i]+", "
         i+=1
       end
       puts array
