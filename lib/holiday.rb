@@ -63,7 +63,7 @@ def all_supplies_in_holidays(holiday_hash)
     puts "#{season.capitalize}:"
     data.each do |holiday, supply|
       title="#{holiday.capitalize}"
-      array="  #{title.sub(/_/," ")}: "
+      array="  #{title.sub(/_/," ").capitalize}: "
       i=0
       while i<supply.length
         array<<supply[i]
