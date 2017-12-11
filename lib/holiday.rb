@@ -66,6 +66,7 @@ def all_supplies_in_holidays(holiday_hash)
       title = title.split("_")
       title = title.collect do |word|
         word.capitalize
+      end
       array=title.join(" ")
       i=0
       while i<supply.length
