@@ -63,6 +63,10 @@ def all_supplies_in_holidays(holiday_hash)
     puts "#{season.capitalize}:"
     data.each do |holiday, supply|
       array=" #{holiday.capitalize}: "
+      i=0
+      while i<supply.length
+        array<<supply
+      end
       puts array
     end
 
