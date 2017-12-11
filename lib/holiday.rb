@@ -92,6 +92,7 @@ def all_holidays_with_bbq(holiday_hash)
       data.each do |holiday, day|
         if day.key?("BBQ")
           day
+        end
       end
   end
 end
