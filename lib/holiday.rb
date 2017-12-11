@@ -63,7 +63,6 @@ def all_supplies_in_holidays(holiday_hash)
     puts "#{season.capitalize}:"
     data.each do |holiday, supply|
       array=" #{holiday.capitalize}: #{supply}"
-      puts holiday
       puts supply
     end
 
